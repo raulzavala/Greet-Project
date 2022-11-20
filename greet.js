@@ -18,7 +18,7 @@ function greet(obj1) {
       }
     }
   } else {
-    return "Hel!";
+    return "Hello there!";
   }
 }
 
