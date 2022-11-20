@@ -4,6 +4,7 @@
   "description": "",
   "main": "greet.js",
   "scripts": {
+    "start": "index.html",
     "test": "jest"
   },
   "keywords": [],
