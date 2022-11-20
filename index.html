@@ -1,0 +1,43 @@
+<html>
+  <body>
+    <h1 id="message"></h1>
+    <script>
+      const isUpperCase = (string) => /^[A-Z]*$/.test(string);
+
+      function check(element) {
+        //Check if uppercase
+        if (isUpperCase(element)) {
+          return element;
+        } else {
+          return element;
+        }
+      }
+
+      function greet(obj1) {
+        if (obj1 != null) {
+          if (obj1 === Array) {
+            const greeting = "Hello, ";
+            const name =
+              name +
+              " " +
+              obj1.forEach((element) => {
+                return element + ",";
+              });
+            return greeting + name;
+          } else {
+            if (isUpperCase(obj1)) {
+              return "HELLO " + obj1;
+            } else {
+              return "Hello, " + obj1;
+            }
+          }
+        } else {
+          return "Hello there!";
+        }
+      }
+
+      document.getElementById("message").innerText =
+        "A greeting message: " + greet("RAUL");
+    </script>
+  </body>
+</html>
